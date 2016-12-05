@@ -1,0 +1,48 @@
+/**
+Column component
+*/
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.column-title {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-bottom: 1px solid #aaa;
+}
+
+.column-title-tool {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column-title-tool>* {
+  padding: 5px;
+  color: #999;
+  cursor: pointer;
+}
+
+.column-title-tool>*:hover {
+  background: #efefef;
+  color: #333;
+}
+
+.column-body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
