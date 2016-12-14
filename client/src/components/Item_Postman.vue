@@ -31,13 +31,13 @@
   export default {
     name: 'postman_item',
     props: ['item'],
-    data: function() {
+    data() {
       return {
         isOpen: false
       }
     },
     methods: {
-      alertDrag: function() {
+      alertDrag() {
         window.alert('Please drag and drop the items.')
       }
     }

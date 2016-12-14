@@ -1,16 +1,17 @@
-
 <template>
-  <ColumnPostman/>
+  <ColumnBenman/>
 </template>
 
 <script>
-const ColumnPostman = require('./components/Column_Postman')
-export default {
-  name: 'appp',
-  components: {
-    ColumnPostman
+  const ColumnPostman = require('./components/Column_Postman')
+  const ColumnBenman = require('./components/Column_Benman')
+  export default {
+    name: 'appp',
+    components: {
+      ColumnPostman,
+      ColumnBenman
+    }
   }
-}
 </script>
 
 <style>
